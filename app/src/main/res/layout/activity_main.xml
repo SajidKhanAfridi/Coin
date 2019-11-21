@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91752A"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#855017"
+        android:backgroundTint="#855017"
+        android:fontFamily="serif"
+        android:contentDescription="@string/title"
+        android:lineSpacingExtra="8sp"
+        android:textAlignment="center"
+        android:textColor="#F0DB80"
+        android:textSize="50sp"
+        android:text="@string/title"/>
+
+    <ImageView
+        android:id="@+id/toss_Image"
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:contentDescription="@string/tossImage"
+        app:srcCompat="@drawable/foreground" />
+
+    <Button
+        android:id="@+id/toss_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#865017"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#FAE889"
+        android:textSize="35sp"
+        android:contentDescription="@string/tossButton"
+        android:text="@string/tossButton"/>
+</LinearLayout>
